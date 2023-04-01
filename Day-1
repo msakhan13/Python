@@ -1,15 +1,19 @@
-#Write your code below this line 👇
+# https://docs.python.org/2/tutorial/index.html
+#Write your code below this line
 print("Day 1 - Python Print Function")
 print("print('what to print')")
+
 
 #String concatenation
 print("Hello " + "world")
 print("Hello \"+\"world")
 print('Hello " + "world')
 
+
 #new line \n
 print("What is your name?\nWhat is your school name?\nWhat is your hobby?")
 print("\tOne Tab Pressed.")
+
 
 #Calculation
 print(3+2)
@@ -19,3 +23,30 @@ print(3*2)
 print(3**2)
 print(3>2)
 print(3>6)
+print((50 - 5.0*6) / 4)
+print(17 / 3)
+print(17 / 3.0)
+print(17 // 3.0)
+print(17 % 3)
+print(5 * 3 + 2)
+
+
+# \newline	Ignored (escape newline)
+# \\	Backslash (\)
+# \e	Escape (ESC)
+# \v	Vertical Tab (VT)
+# \'	Single quote (')
+# \f	Formfeed (FF)
+# \ooo	char with octal value ooo
+# \"	Double quote (")
+# \n	Linefeed (LF)
+# \a	Bell (BEL)
+# \r	Carriage Return (CR)
+# \xhh	char with hex value hh
+# \b	Backspace (BS)
+# \t	Horizontal Tab (TAB)
+# \uxxxx	Character with 16-bit hex value xxxx (unicode only)
+# \Uxxxxxxxx	Character with 32-bit hex value xxxxxxxx (unicode only)
+# \N{name}	Character named in the Unicode database (unicode only), e.g. u'\N{Greek Small Letter Pi}' <=> u'\u03c0'.
+# (Conversely, in module unicodedata, unicodedata.name(u'\u03c0') == 'GREEK SMALL LETTER PI')
+# \AnyOtherChar	left as-is, including the backslash, e.g. str('\z') == '\\z'
