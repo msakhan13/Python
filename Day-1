@@ -10,3 +10,12 @@ print('Hello " + "world')
 #new line \n
 print("What is your name?\nWhat is your school name?\nWhat is your hobby?")
 print("\tOne Tab Pressed.")
+
+#Calculation
+print(3+2)
+print(3-2)
+print(3/2)
+print(3*2)
+print(3**2)
+print(3>2)
+print(3>6)
