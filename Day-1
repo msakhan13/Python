@@ -1,2 +1,11 @@
-print("Hello World")
-print("I am " + "Bonobibi")
+#Write your code below this line 👇
+print("Day 1 - Python Print Function")
+print("print('what to print')")
+
+#String concatenation
+print("Hello " + "world")
+print("Hello \"+\"world")
+print('Hello " + "world')
+
+#new line \n
+print("What is your name?\nWhat is your school name?\nWhat is your hobby?")
