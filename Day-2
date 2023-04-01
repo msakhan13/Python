@@ -1,0 +1,11 @@
+#input function in Python
+
+input("What is your name?")
+
+print(input("What is your name?"))
+
+print(len(input("What is your name?")))
+
+print("Hello " + input("What is your name?") + "!")
+
+print(len("Hello " + input("What is your name?") + "!"))
