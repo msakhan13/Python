@@ -1,0 +1,14 @@
+# PEMDAS L->R
+# Parentheses ()
+# Exponents  **
+# Multiplication  *
+# Division     /
+# Addition     +
+# Subtraction  -
+
+# Actual Order
+# ()
+# *  /
+# +  -
+
+print(3 * 3 + 3 / 3 -3)
