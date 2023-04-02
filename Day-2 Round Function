@@ -1,3 +1,5 @@
+print(round(2.5))
+print(round(2.6))
 print(round(2.66666, 2))
 print(round(8 / 3))
 print(round(8 / 3, 2))
