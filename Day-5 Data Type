@@ -1,0 +1,35 @@
+# String = "Hello Khan"
+print("String Data Type")
+a = "Hello"
+print(type(a))
+print(a[0])
+print(a[2])
+
+b = "12"
+c = 10
+print(b + str(c))
+########################################################
+# Integer
+print("\nInteger Data Type")
+d = 12
+e = 10
+print(type(d + e))
+print(d + e)
+print(100_000 + int("100_000")) #100,000 + 100,000
+print(len("Khan"))
+########################################################
+# Float
+print("\nFloat Data Type")
+f = 3.1
+g = 3.1
+print(type(f + g))
+print(f + g)
+print(2.50 + float("2.50"))
+########################################################
+# Boolean
+print("\nBoolean Data Type")
+h = True
+i = False
+print(type(h))
+print(h)
+print(i)
