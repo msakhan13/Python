@@ -1,0 +1,7 @@
+# Find BMI
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+
+# BMI = weight / (height * height)
+# Find only integer value
+print(int((float(weight) // ((float(height)**2)))))
