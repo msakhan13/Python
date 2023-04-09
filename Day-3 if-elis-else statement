@@ -6,6 +6,13 @@
 # Over 30 but below 35 they are obese
 # Above 35 they are clinically obese.
 ##########################################################
+#  > Greater than sign
+#  < Less than sign
+#  >= Greater than or Equal to sign
+#  <= Less than or Equal to sign
+#  == Equal to sign
+#  != Not equal to sign
+##########################################################
 
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
