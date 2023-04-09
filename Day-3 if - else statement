@@ -1,3 +1,10 @@
+#  > Greater than sign
+#  < Less than sign
+#  >= Greater than or Equal to sign
+#  <= Less than or Equal to sign
+#  == Equal to sign
+#  != Not equal to sign
+
 number = int(input("Which number do you want to check? "))
 # find the reminder using % sign
 result = number % 2
