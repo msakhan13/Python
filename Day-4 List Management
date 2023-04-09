@@ -1,0 +1,24 @@
+# Read more at: https://docs.python.org/3/tutorial/datastructures.html
+####################################################
+cities_of_bedfordshire = ["Ampthill", "Bedford", "Caddington", "Dunstable", "Eaton Bray", "Flitwick",
+                          "Harlington", "Kempston", "Luton", "Potton", "Sandy", "Toddington", "Willington"]
+print("Print list:")
+print(cities_of_bedfordshire)
+print(cities_of_bedfordshire[0])
+print(cities_of_bedfordshire[1])
+print(cities_of_bedfordshire[-1])
+print(cities_of_bedfordshire[-2])
+
+print("Change value in the list")
+cities_of_bedfordshire[2] = "Caddington City"
+print(cities_of_bedfordshire[2])
+
+print("Print the whole list:")
+print(cities_of_bedfordshire.append("Wootton"))
+print(cities_of_bedfordshire)
+
+print("Index of the list")
+print(cities_of_bedfordshire.index('Luton'))
+
+cities_of_bedfordshire.pop()
+print(cities_of_bedfordshire)
