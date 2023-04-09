@@ -4,6 +4,13 @@
 # **except** every year that is evenly divisible by 100 
 # **unless** the year is also evenly divisible by 400
 #############################################################
+#  > Greater than sign
+#  < Less than sign
+#  >= Greater than or Equal to sign
+#  <= Less than or Equal to sign
+#  == Equal to sign
+#  != Not equal to sign
+#############################################################
 
 year = int(input("Which year do you want to check? "))
 
