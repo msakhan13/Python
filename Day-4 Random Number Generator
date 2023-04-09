@@ -8,3 +8,12 @@ print(random.uniform(1.0, 5.0))
 
 print("Generate INTEGER Random Number (0 - 5):")
 print(random.random() * 5)
+#################################
+
+result = random.randint(1,2)
+
+if result ==1:
+    print("Heads")
+else:
+    print("Tails")
+
