@@ -1,0 +1,10 @@
+import random
+
+print("Generate INTEGER Random Number (1 - 10):")
+print(random.randint(1,10))
+
+print("Generate FLOAT Random Number (1.0 - 5.0):")
+print(random.uniform(1.0, 5.0))
+
+print("Generate INTEGER Random Number (0 - 5):")
+print(random.random() * 5)
